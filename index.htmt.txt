@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Repair Appliances</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5;}
+    header {background:#0a74da; color:white; padding:20px; text-align:center;}
+    nav {background:#333; padding:10px; text-align:center;}
+    nav a {color:white; margin:10px; text-decoration:none; font-weight:bold;}
+    section {padding:20px;}
+    .services {display:flex; gap:20px; flex-wrap:wrap; justify-content:center;}
+    .card {border:1px solid #ddd; padding:20px; width:220px; background:white; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1); text-align:center;}
+    footer {background:#0a74da; color:white; text-align:center; padding:15px;}
+    .btn {display:inline-block; padding:10px 15px; background:#25D366; color:white; border-radius:5px; text-decoration:none; margin-top:10px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tech Repair Appliances</h1>
+  <p>Washing Machine | Fridge | AC Repair Service</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>स्वागत है</h2>
+  <p>हम आपकी Washing Machine, Fridge और AC की सभी तरह की रिपेयरिंग करते हैं। भरोसेमंद और तेज़ सेवा।</p>
+</section>
+
+<section id="services">
+  <h2>हमारी सेवाएं</h2>
+  <div class="services">
+    <div class="card">Washing Machine Repair</div>
+    <div class="card">Fridge Repair</div>
+    <div class="card">AC Repair</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Mobile:</strong> 9140718102</p>
+  <p><strong>Address:</strong> Haridwar Road, Golghati, Rishikesh, Uttarakhand - 249201</p>
+  <a class="btn" href="https://wa.me/919140718102">WhatsApp Now</a>
+</section>
+
+<footer>
+  <p>© 2026 Tech Repair Appliances | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
